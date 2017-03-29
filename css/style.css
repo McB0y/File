@@ -30,7 +30,7 @@ p {
   font-size: 17px;
   line-height: 2;
 }
-.row {
+.row1 {
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -42,7 +42,7 @@ p {
   margin: 0 auto;
   padding: 50px 2% 50px;
 }
-.main_header .row .content {padding: 0;}
+.main_header .row1 .content {padding: 0;}
 /* NOTE: Fondo de la sección de color más oscuro. */
 .dark {background:#333;}
 #hero {
@@ -54,7 +54,7 @@ p {
   text-align: center;
   color: #fff;
   padding-top: 110px;
-  min-height: 500px;
+  min-height: 100vh;
   letter-spacing: 2px;
   font-family: "Oswald", sans-serif;
 }
