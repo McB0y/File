@@ -26,7 +26,6 @@
                   <ul>
                       <li><a href="#sec01">Inicio</a></li>
                       <li><a href="#sec02">Empresa</a></li>
-                      <li><a href="#sec03">Equipo</a></li>
                       <li><a href="#sec03">Productos</a></li>
                       <li><a href="#sec04">Contacto</a></li>
                   </ul>
@@ -138,41 +137,21 @@
 
 
         <section class="row1 dark" id="sec03">
-          <div class="content">
-            <h1>Herramienta especializada.</h1>
-
-
-            <div class="contenedor">
-             <div class="elemento"><img src="./js/Plugs_Scripts/Imagenes/drill.jpg" alt="kit de broca para concreto" max-width="100%"/>
-                <p class="deImg">kit de broca para concreto
-
-
-
-                </p>
-             </div>
-             <div class="elemento"><img src="./js/Plugs_Scripts/Imagenes/drill3.jpg" alt="Broca para concreto" max-width="100%"/>
-                <p class="deImg">Broca para concreto
-
-
-
-                </p>
-             </div>
-             <div class="elemento"><img src="./js/Plugs_Scripts/Imagenes/drill6.jpg" alt="Broca multiusos" max-width="100%"/>
-                <p class="deImg">Broca multiusos
-
-
-
-                </p>
-             </div>
-             <div class="elemento"><img src="./js/Plugs_Scripts/Imagenes/drill9.jpg" alt="Esmeriles especializados" max-width="100%"/>
-                <p class="deImg">Esmeriles especializados
-
-
-
-                </p>
-             </div>
+           <div class="content row align-center">
+            <div class="partner">
+              <h3>Socios con la mejor herramienta especializada americana.</h3>
             </div>
-
+            <div class="container1">
+              <div class="small-12 medium-4 column">
+                <img class="bw" src="./assets/Imagenes/Spiradrill.jpg" alt="Spiradrill tools" width="200px" height="100px"/>
+              </div>
+              <div class="small-12 medium-4 column">
+                <img class="bw" src="./assets/Imagenes/digga.png" alt="Digga tools" width="200px" height="100px"/>
+              </div>
+              <div class="small-12 medium-4 column">
+                <img class="bw" src="./assets/Imagenes/PDS.jpg" alt="PDS Co" width="200px" height="100px"/>
+              </div>
+            </div>
 
           </div>
         </section>
@@ -189,31 +168,9 @@
 
 
 
-        <section class="row1" id="sec04">
-          <div class="content">
-            <div class="partner">
-              <h3>Socios con la mejor herramienta especializada americana.</h3>
-            </div>
-            <div class="container1">
-              <div>
-                <picture><img class="bw" src="./js/Plugs_Scripts/Imagenes/Spiradrill.jpg" alt="Spiradrill tools" width="200px" height="100px"/></picture>
-              </div>
-              <div>
-                <picture><img class="bw" src="./js/Plugs_Scripts/Imagenes/digga.png" alt="Digga tools" width="200px" height="100px"/></picture>
-              </div>
-              <div>
-                <picture><img class="bw" src="./js/Plugs_Scripts/Imagenes/PDS.jpg" alt="PDS Co" width="200px" height="100px"/></picture>
-              </div>
-            </div>
-
-          </div>
-
-         <!-- El formulario de contacto, y el mapa de localización.-->
-
-
-
-
-       </section><!-- Termino la sección de socios y contacto.-->
+        <section class="contenedorParallax">
+        <div class="parallax" data-parallax="scroll" data-image-src="./assets/Imagenes/drill5.jpg"></div>
+       </section>
         <!-- Boton para subir al inicio.-->
         <a href="#" class="scrollup"><i class="fa fa-arrow-circle-o-up"></i></a>
 
@@ -224,9 +181,13 @@
 
       <!-- Nuestro pie de página -->
 
-      <footer>
+      <footer id="sec04">
          <div class="footer">
-           <div class="row espaciado">
+           <div class="row1 espaciado">
+             <div class="partner">
+              <h3>Contactenos.</h3>
+            </div>
+             <!--El contenedor normal de fila-->
              <form class="column small-12 medium-6 klanimate" data-y="-100">
                <label class="iconContacto1">Nombre
                  <input type="text" placeholder="Nombre"/>
@@ -251,8 +212,8 @@
                  <div class="iconContacto"><i class="fa fa-map-marker" aria-hidden="true"> Dirección</i></div>
                </h4>
                <p class="iconContacto1">
-                 Calle iztaccihuatl no.40
-                 Venustiano Carranza c.p. 15600
+                 Calle Malinche no.40
+                 GAM c.p. 07840
                  Ciudad de México.
                </p>
                <!--div(class="item" id="gmap")-->
@@ -265,7 +226,7 @@
             </form>
         </div>
         <div class="social">
-          <div class="sociales"><span>Puedes seguirnos en las redes sociales.</span></div>
+          <div class="sociales"><span>Puedes seguirme en las redes sociales.</span></div>
           <div class="so">
             <div class="sociales1"><i class="fa fa-facebook-official icono" aria-hidden="true"></i><i class="fa fa-twitter icono" aria-hidden="true"></i><i class="fa fa-linkedin-square icono" aria-hidden="true"></i><i class="fa fa-google-plus icono" aria-hidden="true"></i></div>
           </div>
@@ -281,8 +242,5 @@
       <script src="https://use.fontawesome.com/f9b0ff375d.js"></script>
       <script src="./js/parallax.min.js" charset="utf-8"></script>
       <!--Los plugins de nuestro slider.-->
-
-      <script src="./js/Plugs_Scripts/JQuery_Plugins/app.js" charset="utf-8"></script>
-      <script src="./js/Swiper-master/dist/js/swiper.jquery.min.js" charset="utf-8"></script>
    </body>
 </html>
